@@ -40,7 +40,11 @@ def fetch_stooq_data(symbol):
         return {
             "symbol": symbol.replace(".US", ""),
             "date": latest['Date'],
-             "close": float(latest['Close']),
+            "open": float(latest['Open']),
+            "high": float(latest['High']),
+            "low": float(latest['Low']),
+            "close": float(latest['Close']),
+            "volume": int(latest['Volume'])
          }
     except Exception as e:
         print(f"Error fetching {symbol}: {e}")
