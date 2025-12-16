@@ -1,32 +1,510 @@
 {
-  "last_updated": "2025-12-16T03:05:54.805021",
+  "last_updated": "2025-12-16T05:07:02.454934",
   "stocks": {
     "RBLX": {
       "symbol": "RBLX",
       "date": "2025-12-11",
-      "open": 94.19,
-      "high": 96.27,
-      "low": 93.07,
-      "close": 94.34,
-      "volume": 6114960
+      "close": 94.34
     },
     "AAPL": {
       "symbol": "AAPL",
       "date": "2025-12-11",
-      "open": 279.095,
-      "high": 279.59,
-      "low": 273.81,
-      "close": 278.03,
-      "volume": 33247986
+      "close": 278.03
     },
     "MSFT": {
       "symbol": "MSFT",
       "date": "2025-12-11",
-      "open": 476.63,
-      "high": 486.03,
-      "low": 475.86,
-      "close": 483.47,
-      "volume": 24669180
+      "close": 483.47
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "date": "2025-12-11",
+      "close": 180.93
+    },
+    "AMZN": {
+      "symbol": "AMZN",
+      "date": "2025-12-11",
+      "close": 230.28
+    },
+    "META": {
+      "symbol": "META",
+      "date": "2025-12-11",
+      "close": 652.71
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "date": "2025-12-11",
+      "close": 312.43
+    },
+    "GOOG": {
+      "symbol": "GOOG",
+      "date": "2025-12-11",
+      "close": 313.7
+    },
+    "BRK-B": {
+      "symbol": "BRK-B",
+      "date": "2025-12-11",
+      "close": 495.85
+    },
+    "LLY": {
+      "symbol": "LLY",
+      "date": "2025-12-11",
+      "close": 1009.38
+    },
+    "AVGO": {
+      "symbol": "AVGO",
+      "date": "2025-12-11",
+      "close": 406.37
+    },
+    "JPM": {
+      "symbol": "JPM",
+      "date": "2025-12-11",
+      "close": 317.38
+    },
+    "V": {
+      "symbol": "V",
+      "date": "2025-12-11",
+      "close": 345.63
+    },
+    "XOM": {
+      "symbol": "XOM",
+      "date": "2025-12-11",
+      "close": 119.54
+    },
+    "UNH": {
+      "symbol": "UNH",
+      "date": "2025-12-11",
+      "close": 336.73
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "date": "2025-12-11",
+      "close": 446.89
+    },
+    "MA": {
+      "symbol": "MA",
+      "date": "2025-12-11",
+      "close": 563.37
+    },
+    "PG": {
+      "symbol": "PG",
+      "date": "2025-12-11",
+      "close": 140.76
+    },
+    "JNJ": {
+      "symbol": "JNJ",
+      "date": "2025-12-11",
+      "close": 210.01
+    },
+    "HD": {
+      "symbol": "HD",
+      "date": "2025-12-11",
+      "close": 357.46
+    },
+    "COST": {
+      "symbol": "COST",
+      "date": "2025-12-11",
+      "close": 884.48
+    },
+    "MRK": {
+      "symbol": "MRK",
+      "date": "2025-12-11",
+      "close": 99.01
+    },
+    "ABBV": {
+      "symbol": "ABBV",
+      "date": "2025-12-11",
+      "close": 223.98
+    },
+    "CRM": {
+      "symbol": "CRM",
+      "date": "2025-12-11",
+      "close": 262.35
+    },
+    "ADBE": {
+      "symbol": "ADBE",
+      "date": "2025-12-11",
+      "close": 350.43
+    },
+    "PEP": {
+      "symbol": "PEP",
+      "date": "2025-12-11",
+      "close": 149.04
+    },
+    "KO": {
+      "symbol": "KO",
+      "date": "2025-12-11",
+      "close": 69.11
+    },
+    "NFLX": {
+      "symbol": "NFLX",
+      "date": "2025-12-11",
+      "close": 94.09
+    },
+    "WMT": {
+      "symbol": "WMT",
+      "date": "2025-12-11",
+      "close": 115.52
+    },
+    "BAC": {
+      "symbol": "BAC",
+      "date": "2025-12-11",
+      "close": 54.56
+    },
+    "CVX": {
+      "symbol": "CVX",
+      "date": "2025-12-11",
+      "close": 150.72
+    },
+    "ORCL": {
+      "symbol": "ORCL",
+      "date": "2025-12-11",
+      "close": 198.85
+    },
+    "TMO": {
+      "symbol": "TMO",
+      "date": "2025-12-11",
+      "close": 578.9
+    },
+    "ACN": {
+      "symbol": "ACN",
+      "date": "2025-12-11",
+      "close": 270.37
+    },
+    "AMD": {
+      "symbol": "AMD",
+      "date": "2025-12-11",
+      "close": 221.43
+    },
+    "DIS": {
+      "symbol": "DIS",
+      "date": "2025-12-11",
+      "close": 111.46
+    },
+    "INTC": {
+      "symbol": "INTC",
+      "date": "2025-12-11",
+      "close": 39.51
+    },
+    "CSCO": {
+      "symbol": "CSCO",
+      "date": "2025-12-11",
+      "close": 79.27
+    },
+    "MCD": {
+      "symbol": "MCD",
+      "date": "2025-12-11",
+      "close": 309.71
+    },
+    "QCOM": {
+      "symbol": "QCOM",
+      "date": "2025-12-11",
+      "close": 181.27
+    },
+    "ABT": {
+      "symbol": "ABT",
+      "date": "2025-12-11",
+      "close": 123.28
+    },
+    "TXN": {
+      "symbol": "TXN",
+      "date": "2025-12-11",
+      "close": 181.67
+    },
+    "LIN": {
+      "symbol": "LIN",
+      "date": "2025-12-11",
+      "close": 403.3
+    },
+    "AMGN": {
+      "symbol": "AMGN",
+      "date": "2025-12-11",
+      "close": 317.38
+    },
+    "VZ": {
+      "symbol": "VZ",
+      "date": "2025-12-11",
+      "close": 40.22
+    },
+    "WFC": {
+      "symbol": "WFC",
+      "date": "2025-12-11",
+      "close": 92.59
+    },
+    "PM": {
+      "symbol": "PM",
+      "date": "2025-12-11",
+      "close": 150.95
+    },
+    "INTU": {
+      "symbol": "INTU",
+      "date": "2025-12-11",
+      "close": 676.01
+    },
+    "UPS": {
+      "symbol": "UPS",
+      "date": "2025-12-11",
+      "close": 100.48
+    },
+    "HON": {
+      "symbol": "HON",
+      "date": "2025-12-11",
+      "close": 193.85
+    },
+    "NEE": {
+      "symbol": "NEE",
+      "date": "2025-12-11",
+      "close": 81.21
+    },
+    "MS": {
+      "symbol": "MS",
+      "date": "2025-12-11",
+      "close": 180.29
+    },
+    "LOW": {
+      "symbol": "LOW",
+      "date": "2025-12-11",
+      "close": 248.08
+    },
+    "SPGI": {
+      "symbol": "SPGI",
+      "date": "2025-12-11",
+      "close": 497.56
+    },
+    "IBM": {
+      "symbol": "IBM",
+      "date": "2025-12-11",
+      "close": 310.74
+    },
+    "CAT": {
+      "symbol": "CAT",
+      "date": "2025-12-11",
+      "close": 625.61
+    },
+    "RTX": {
+      "symbol": "RTX",
+      "date": "2025-12-11",
+      "close": 177.42
+    },
+    "GS": {
+      "symbol": "GS",
+      "date": "2025-12-11",
+      "close": 911.03
+    },
+    "NOW": {
+      "symbol": "NOW",
+      "date": "2025-12-11",
+      "close": 867.49
+    },
+    "ELV": {
+      "symbol": "ELV",
+      "date": "2025-12-11",
+      "close": 360.22
+    },
+    "PLD": {
+      "symbol": "PLD",
+      "date": "2025-12-11",
+      "close": 130.56
+    },
+    "ISRG": {
+      "symbol": "ISRG",
+      "date": "2025-12-11",
+      "close": 547.36
+    },
+    "DE": {
+      "symbol": "DE",
+      "date": "2025-12-11",
+      "close": 475.94
+    },
+    "BLK": {
+      "symbol": "BLK",
+      "date": "2025-12-11",
+      "close": 1101.84
+    },
+    "BKNG": {
+      "symbol": "BKNG",
+      "date": "2025-12-11",
+      "close": 5279.68
+    },
+    "MDT": {
+      "symbol": "MDT",
+      "date": "2025-12-11",
+      "close": 99.75
+    },
+    "LMT": {
+      "symbol": "LMT",
+      "date": "2025-12-11",
+      "close": 474.88
+    },
+    "AXP": {
+      "symbol": "AXP",
+      "date": "2025-12-11",
+      "close": 384.89
+    },
+    "ADP": {
+      "symbol": "ADP",
+      "date": "2025-12-11",
+      "close": 264.69
+    },
+    "SYK": {
+      "symbol": "SYK",
+      "date": "2025-12-11",
+      "close": 352.97
+    },
+    "TJX": {
+      "symbol": "TJX",
+      "date": "2025-12-11",
+      "close": 155.58
+    },
+    "AMAT": {
+      "symbol": "AMAT",
+      "date": "2025-12-11",
+      "close": 270.11
+    },
+    "CB": {
+      "symbol": "CB",
+      "date": "2025-12-11",
+      "close": 305.98
+    },
+    "CI": {
+      "symbol": "CI",
+      "date": "2025-12-11",
+      "close": 272.26
+    },
+    "MMC": {
+      "symbol": "MMC",
+      "date": "2025-12-11",
+      "close": 183.47
+    },
+    "GILD": {
+      "symbol": "GILD",
+      "date": "2025-12-11",
+      "close": 123.21
+    },
+    "ADI": {
+      "symbol": "ADI",
+      "date": "2025-12-11",
+      "close": 283.39
+    },
+    "VRTX": {
+      "symbol": "VRTX",
+      "date": "2025-12-11",
+      "close": 445.93
+    },
+    "ZTS": {
+      "symbol": "ZTS",
+      "date": "2025-12-11",
+      "close": 117.66
+    },
+    "REGN": {
+      "symbol": "REGN",
+      "date": "2025-12-11",
+      "close": 746.8
+    },
+    "PGR": {
+      "symbol": "PGR",
+      "date": "2025-12-11",
+      "close": 230.44
+    },
+    "MU": {
+      "symbol": "MU",
+      "date": "2025-12-11",
+      "close": 258.46
+    },
+    "LRCX": {
+      "symbol": "LRCX",
+      "date": "2025-12-11",
+      "close": 168.71
+    },
+    "SCHW": {
+      "symbol": "SCHW",
+      "date": "2025-12-11",
+      "close": 97.05
+    },
+    "SO": {
+      "symbol": "SO",
+      "date": "2025-12-11",
+      "close": 84.73
+    },
+    "BSX": {
+      "symbol": "BSX",
+      "date": "2025-12-11",
+      "close": 91.75
+    },
+    "SLB": {
+      "symbol": "SLB",
+      "date": "2025-12-11",
+      "close": 40.34
+    },
+    "ETN": {
+      "symbol": "ETN",
+      "date": "2025-12-11",
+      "close": 350.36
+    },
+    "PANW": {
+      "symbol": "PANW",
+      "date": "2025-12-11",
+      "close": 190.36
+    },
+    "MO": {
+      "symbol": "MO",
+      "date": "2025-12-11",
+      "close": 58.72
+    },
+    "EQIX": {
+      "symbol": "EQIX",
+      "date": "2025-12-11",
+      "close": 754.13
+    },
+    "VOO": {
+      "symbol": "VOO",
+      "date": "2025-12-11",
+      "close": 633.71
+    },
+    "QQQ": {
+      "symbol": "QQQ",
+      "date": "2025-12-11",
+      "close": 625.58
+    },
+    "VTI": {
+      "symbol": "VTI",
+      "date": "2025-12-11",
+      "close": 339.87
+    },
+    "DIA": {
+      "symbol": "DIA",
+      "date": "2025-12-11",
+      "close": 487.87
+    },
+    "IWM": {
+      "symbol": "IWM",
+      "date": "2025-12-11",
+      "close": 257.8
+    },
+    "XLK": {
+      "symbol": "XLK",
+      "date": "2025-12-11",
+      "close": 147.97
+    },
+    "XLF": {
+      "symbol": "XLF",
+      "date": "2025-12-11",
+      "close": 54.87
+    },
+    "XLV": {
+      "symbol": "XLV",
+      "date": "2025-12-11",
+      "close": 153.58
+    },
+    "GLD": {
+      "symbol": "GLD",
+      "date": "2025-12-11",
+      "close": 393.24
+    },
+    "SLV": {
+      "symbol": "SLV",
+      "date": "2025-12-11",
+      "close": 57.62
     }
   }
 }
