@@ -26,7 +26,7 @@ jobs:
       - name: Install Aftman
         uses: ok-nick/setup-aftman@v0.4.1
         with:
-          working-directory: game-repo
+          working-directory: data-repo
 
       - name: Build with Rojo
         working-directory: game-repo
