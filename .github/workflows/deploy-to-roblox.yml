@@ -29,9 +29,9 @@ jobs:
       - name: Install Aftman
         uses: ok-nick/setup-aftman@v0.4.1
 
-      - name: Install Rojo via Aftman
+      - name: Install and trust Rojo via Aftman
         working-directory: game-repo
-        run: aftman install
+        run: aftman add rojo-rbx/rojo@7.6.1
 
       - name: Build with Rojo
         working-directory: game-repo
