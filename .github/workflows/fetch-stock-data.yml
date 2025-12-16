@@ -22,24 +22,9 @@ jobs:
       - name: Fetch stock data from Stooq
         run: python fetch_stock_data.py
 
-      - name: Install Rojo
-        run: |
-          curl -L -o rojo.zip https://github.com/rojo-rbx/rojo/releases/download/v7.6.1/rojo-7.6.1-linux-x86_64.zip
-          unzip rojo.zip
-          chmod +x rojo
-          sudo mv rojo /usr/local/bin/
-
-      - name: Build ModuleScript as .rbxm
-        run: rojo build StockData.project.json -o StockData.rbxm
-
-      - name: Upload ModuleScript to Roblox
-        env:
-          ROBLOX_API_KEY: ${{ secrets.ROBLOX_API_KEY }}
-        run: python upload_to_roblox.py
-
       - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add stock-prices.json StockData.lua StockData.rbxm
+          git add stock-prices.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update stock prices - $(date +'%Y-%m-%d')" && git push)

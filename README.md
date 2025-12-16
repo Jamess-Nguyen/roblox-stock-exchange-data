@@ -13,14 +13,13 @@ This repo fetches daily stock prices from [Stooq](https://stooq.com/) for:
 
 1. **Daily Automation** (6:00 AM UTC)
    - GitHub Action fetches latest stock prices from Stooq API
-   - Generates both JSON and Lua ModuleScript formats
-   - Uploads ModuleScript to Roblox asset **91072619691201** via Open Cloud API
-   - Commits updated files to this repository
+   - Generates JSON file with current prices
+   - Commits updated file to this repository
 
 2. **In-Game Usage**
-   - Your Roblox game can `require(91072619691201)` to get the latest stock data
-   - No HttpService needed, just require the asset!
-   - Data updates automatically every day
+   - Your Roblox game uses HttpService to fetch the JSON from GitHub
+   - Data is served free via GitHub's raw file URL
+   - Updates automatically every day
 
 ## Data Formats
 
@@ -42,39 +41,37 @@ This repo fetches daily stock prices from [Stooq](https://stooq.com/) for:
 }
 ```
 
-### Lua ModuleScript Format (`StockData.lua`)
-```lua
-return {
-    last_updated = "2025-12-15T18:29:40.780506",
-    stocks = {
-        RBLX = {
-            symbol = "RBLX",
-            date = "2025-12-10",
-            close = 94.36,
-            ...
-        },
-        ...
-    }
-}
-```
-
-## Setup Requirements
-
-### GitHub Secrets
-Add `ROBLOX_API_KEY` to repository secrets with:
-- Permission: **Asset Write** for asset 91072619691201
-- Created at: https://create.roblox.com/credentials
-
 ## Usage in Roblox
 
 ```lua
--- In your game, simply require the asset
-local StockData = require(91072619691201)
+-- Enable HttpService in game settings first!
+local HttpService = game:GetService("HttpService")
 
--- Access stock prices
-local rblxPrice = StockData.stocks.RBLX.close
-print("RBLX Price:", rblxPrice)
+-- Fetch the latest stock data
+local DATA_URL = "https://raw.githubusercontent.com/Jamess-Nguyen/roblox-stock-exchange-data/main/stock-prices.json"
+
+local success, response = pcall(function()
+    return HttpService:GetAsync(DATA_URL)
+end)
+
+if success then
+    local data = HttpService:JSONDecode(response)
+
+    -- Access stock prices
+    local rblxPrice = data.stocks.RBLX.close
+    print("RBLX Price:", rblxPrice)
+
+    -- Loop through all stocks
+    for symbol, stock in pairs(data.stocks) do
+        print(symbol, stock.close)
+    end
+else
+    warn("Failed to fetch stock data:", response)
+end
 ```
+
+**Important:** Make sure to enable HttpService in your game settings:
+- Game Settings → Security → Allow HTTP Requests = ON
 
 ## Future Plans
 
