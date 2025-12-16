@@ -23,10 +23,13 @@ jobs:
           path: game-repo
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install Aftman
+      - name: Copy Aftman config to game repo
+        run: copy data-repo/aftman.toml game-repo/aftman.toml
+
+      - name: Install Aftman and Rojo
         uses: ok-nick/setup-aftman@v0.4.1
         with:
-          working-directory: data-repo
+          working-directory: game-repo
 
       - name: Build with Rojo
         working-directory: game-repo
