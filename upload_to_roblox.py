@@ -26,7 +26,10 @@ def upload_module_script(api_key, file_path):
     body.write(f'--{boundary}\r\n'.encode('utf-8'))
     body.write(b'Content-Disposition: form-data; name="request"\r\n')
     body.write(b'Content-Type: application/json\r\n\r\n')
-    body.write(json.dumps({"assetType": "Model"}).encode('utf-8'))
+    body.write(json.dumps({
+        "assetId": int(ASSET_ID),
+        "assetType": "Model"
+    }).encode('utf-8'))
     body.write(b'\r\n')
 
     body.write(f'--{boundary}\r\n'.encode('utf-8'))
