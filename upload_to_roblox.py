@@ -33,7 +33,7 @@ def upload_module_script(api_key, file_path):
     body.write(b'\r\n')
 
     body.write(f'--{boundary}\r\n'.encode('utf-8'))
-    body.write(b'Content-Disposition: form-data; name="fileContent"; filename="StockData.lua"\r\n')
+    body.write(b'Content-Disposition: form-data; name="fileContent"; filename="StockData.rbxm"\r\n')
     body.write(b'Content-Type: application/octet-stream\r\n\r\n')
     body.write(lua_content)
     body.write(b'\r\n')
@@ -72,7 +72,7 @@ def main():
         print("[ERROR] ROBLOX_API_KEY environment variable not set")
         sys.exit(1)
 
-    file_path = 'StockData.lua'
+    file_path = 'StockData.rbxm'
 
     if not os.path.exists(file_path):
         print(f"[ERROR] {file_path} not found")

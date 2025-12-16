@@ -1,0 +1,9 @@
+{
+  "name": "StockData",
+  "tree": {
+    "$className": "Model",
+    "MainModule": {
+      "$path": "StockData.lua"
+    }
+  }
+}
