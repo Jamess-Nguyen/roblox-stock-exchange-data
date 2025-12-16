@@ -1,510 +1,914 @@
 {
-  "last_updated": "2025-12-16T05:07:02.454934",
+  "last_updated": "2025-12-16T05:12:01.194693",
   "stocks": {
     "RBLX": {
       "symbol": "RBLX",
       "date": "2025-12-11",
-      "close": 94.34
+      "open": 94.19,
+      "high": 96.27,
+      "low": 93.07,
+      "close": 94.34,
+      "volume": 6114960
     },
     "AAPL": {
       "symbol": "AAPL",
       "date": "2025-12-11",
-      "close": 278.03
+      "open": 279.095,
+      "high": 279.59,
+      "low": 273.81,
+      "close": 278.03,
+      "volume": 33247986
     },
     "MSFT": {
       "symbol": "MSFT",
       "date": "2025-12-11",
-      "close": 483.47
+      "open": 476.63,
+      "high": 486.03,
+      "low": 475.86,
+      "close": 483.47,
+      "volume": 24669180
     },
     "NVDA": {
       "symbol": "NVDA",
       "date": "2025-12-11",
-      "close": 180.93
+      "open": 180.275,
+      "high": 181.32,
+      "low": 176.62,
+      "close": 180.93,
+      "volume": 182136641
     },
     "AMZN": {
       "symbol": "AMZN",
       "date": "2025-12-11",
-      "close": 230.28
+      "open": 230.71,
+      "high": 232.11,
+      "low": 228.6901,
+      "close": 230.28,
+      "volume": 28249599
     },
     "META": {
       "symbol": "META",
       "date": "2025-12-11",
-      "close": 652.71
+      "open": 643.29,
+      "high": 655.28,
+      "low": 640.795,
+      "close": 652.71,
+      "volume": 13056726
     },
     "GOOGL": {
       "symbol": "GOOGL",
       "date": "2025-12-11",
-      "close": 312.43
+      "open": 320.08,
+      "high": 321.12,
+      "low": 308.6,
+      "close": 312.43,
+      "volume": 42353697
     },
     "GOOG": {
       "symbol": "GOOG",
       "date": "2025-12-11",
-      "close": 313.7
+      "open": 321.1,
+      "high": 321.99,
+      "low": 309.88,
+      "close": 313.7,
+      "volume": 25912059
     },
     "BRK-B": {
       "symbol": "BRK-B",
       "date": "2025-12-11",
-      "close": 495.85
+      "open": 491.83,
+      "high": 498.145,
+      "low": 491.83,
+      "close": 495.85,
+      "volume": 4493445
     },
     "LLY": {
       "symbol": "LLY",
       "date": "2025-12-11",
-      "close": 1009.38
+      "open": 1009.02,
+      "high": 1031.5608,
+      "low": 987.0,
+      "close": 1009.38,
+      "volume": 4516960
     },
     "AVGO": {
       "symbol": "AVGO",
       "date": "2025-12-11",
-      "close": 406.37
+      "open": 404.825,
+      "high": 409.3,
+      "low": 394.19,
+      "close": 406.37,
+      "volume": 45681617
     },
     "JPM": {
       "symbol": "JPM",
       "date": "2025-12-11",
-      "close": 317.38
+      "open": 309.24,
+      "high": 318.0,
+      "low": 309.24,
+      "close": 317.38,
+      "volume": 9721859
     },
     "V": {
       "symbol": "V",
       "date": "2025-12-11",
-      "close": 345.63
+      "open": 331.52,
+      "high": 347.32,
+      "low": 330.06,
+      "close": 345.63,
+      "volume": 12953584
     },
     "XOM": {
       "symbol": "XOM",
       "date": "2025-12-11",
-      "close": 119.54
+      "open": 119.11,
+      "high": 120.36,
+      "low": 119.065,
+      "close": 119.54,
+      "volume": 14781787
     },
     "UNH": {
       "symbol": "UNH",
       "date": "2025-12-11",
-      "close": 336.73
+      "open": 329.43,
+      "high": 339.25,
+      "low": 328.76,
+      "close": 336.73,
+      "volume": 7513165
     },
     "TSLA": {
       "symbol": "TSLA",
       "date": "2025-12-11",
-      "close": 446.89
+      "open": 448.945,
+      "high": 449.2699,
+      "low": 440.33,
+      "close": 446.89,
+      "volume": 55979492
     },
     "MA": {
       "symbol": "MA",
       "date": "2025-12-11",
-      "close": 563.37
+      "open": 542.8,
+      "high": 565.13,
+      "low": 542.65,
+      "close": 563.37,
+      "volume": 3659909
     },
     "PG": {
       "symbol": "PG",
       "date": "2025-12-11",
-      "close": 140.76
+      "open": 141.0,
+      "high": 141.84,
+      "low": 140.355,
+      "close": 140.76,
+      "volume": 11797981
     },
     "JNJ": {
       "symbol": "JNJ",
       "date": "2025-12-11",
-      "close": 210.01
+      "open": 207.9,
+      "high": 211.235,
+      "low": 207.83,
+      "close": 210.01,
+      "volume": 9008960
     },
     "HD": {
       "symbol": "HD",
       "date": "2025-12-11",
-      "close": 357.46
+      "open": 354.555,
+      "high": 362.72,
+      "low": 353.94,
+      "close": 357.46,
+      "volume": 6609845
     },
     "COST": {
       "symbol": "COST",
       "date": "2025-12-11",
-      "close": 884.48
+      "open": 875.86,
+      "high": 886.0,
+      "low": 872.5501,
+      "close": 884.48,
+      "volume": 3041582
     },
     "MRK": {
       "symbol": "MRK",
       "date": "2025-12-11",
-      "close": 99.01
+      "open": 98.44,
+      "high": 99.14,
+      "low": 97.578,
+      "close": 99.01,
+      "volume": 11808178
     },
     "ABBV": {
       "symbol": "ABBV",
       "date": "2025-12-11",
-      "close": 223.98
+      "open": 225.54,
+      "high": 225.96,
+      "low": 222.24,
+      "close": 223.98,
+      "volume": 4170630
     },
     "CRM": {
       "symbol": "CRM",
       "date": "2025-12-11",
-      "close": 262.35
+      "open": 263.5,
+      "high": 267.9,
+      "low": 260.77,
+      "close": 262.35,
+      "volume": 7783785
     },
     "ADBE": {
       "symbol": "ADBE",
       "date": "2025-12-11",
-      "close": 350.43
+      "open": 341.645,
+      "high": 357.0,
+      "low": 333.79,
+      "close": 350.43,
+      "volume": 10158661
     },
     "PEP": {
       "symbol": "PEP",
       "date": "2025-12-11",
-      "close": 149.04
+      "open": 150.15,
+      "high": 150.89,
+      "low": 148.13,
+      "close": 149.04,
+      "volume": 7854008
     },
     "KO": {
       "symbol": "KO",
       "date": "2025-12-11",
-      "close": 69.11
+      "open": 70.55,
+      "high": 70.69,
+      "low": 68.79,
+      "close": 69.11,
+      "volume": 23124157
     },
     "NFLX": {
       "symbol": "NFLX",
       "date": "2025-12-11",
-      "close": 94.09
+      "open": 93.895,
+      "high": 94.82,
+      "low": 92.76,
+      "close": 94.09,
+      "volume": 43949009
     },
     "WMT": {
       "symbol": "WMT",
       "date": "2025-12-11",
-      "close": 115.52
+      "open": 113.14,
+      "high": 115.87,
+      "low": 112.85,
+      "close": 115.52,
+      "volume": 21586640
     },
     "BAC": {
       "symbol": "BAC",
       "date": "2025-12-11",
-      "close": 54.56
+      "open": 53.96,
+      "high": 54.65,
+      "low": 53.75,
+      "close": 54.56,
+      "volume": 35686915
     },
     "CVX": {
       "symbol": "CVX",
       "date": "2025-12-11",
-      "close": 150.72
+      "open": 150.83,
+      "high": 151.94,
+      "low": 150.1,
+      "close": 150.72,
+      "volume": 8414160
     },
     "ORCL": {
       "symbol": "ORCL",
       "date": "2025-12-11",
-      "close": 198.85
+      "open": 190.62,
+      "high": 201.99,
+      "low": 186.23,
+      "close": 198.85,
+      "volume": 100612691
     },
     "TMO": {
       "symbol": "TMO",
       "date": "2025-12-11",
-      "close": 578.9
+      "open": 578.0,
+      "high": 579.08,
+      "low": 570.844,
+      "close": 578.9,
+      "volume": 1226447
     },
     "ACN": {
       "symbol": "ACN",
       "date": "2025-12-11",
-      "close": 270.37
+      "open": 272.7,
+      "high": 277.65,
+      "low": 269.71,
+      "close": 270.37,
+      "volume": 4063216
     },
     "AMD": {
       "symbol": "AMD",
       "date": "2025-12-11",
-      "close": 221.43
+      "open": 217.81,
+      "high": 221.4989,
+      "low": 210.1901,
+      "close": 221.43,
+      "volume": 30694649
     },
     "DIS": {
       "symbol": "DIS",
       "date": "2025-12-11",
-      "close": 111.46
+      "open": 109.14,
+      "high": 111.56,
+      "low": 109.11,
+      "close": 111.46,
+      "volume": 13281383
     },
     "INTC": {
       "symbol": "INTC",
       "date": "2025-12-11",
-      "close": 39.51
+      "open": 40.07,
+      "high": 40.19,
+      "low": 39.075,
+      "close": 39.51,
+      "volume": 59096759
     },
     "CSCO": {
       "symbol": "CSCO",
       "date": "2025-12-11",
-      "close": 79.27
+      "open": 80.24,
+      "high": 80.37,
+      "low": 78.825,
+      "close": 79.27,
+      "volume": 18652338
     },
     "MCD": {
       "symbol": "MCD",
       "date": "2025-12-11",
-      "close": 309.71
+      "open": 311.5,
+      "high": 312.98,
+      "low": 309.06,
+      "close": 309.71,
+      "volume": 4844183
     },
     "QCOM": {
       "symbol": "QCOM",
       "date": "2025-12-11",
-      "close": 181.27
+      "open": 181.37,
+      "high": 181.64,
+      "low": 178.09,
+      "close": 181.27,
+      "volume": 6319247
     },
     "ABT": {
       "symbol": "ABT",
       "date": "2025-12-11",
-      "close": 123.28
+      "open": 123.025,
+      "high": 124.24,
+      "low": 122.63,
+      "close": 123.28,
+      "volume": 5390007
     },
     "TXN": {
       "symbol": "TXN",
       "date": "2025-12-11",
-      "close": 181.67
+      "open": 180.28,
+      "high": 182.02,
+      "low": 179.18,
+      "close": 181.67,
+      "volume": 4838019
     },
     "LIN": {
       "symbol": "LIN",
       "date": "2025-12-11",
-      "close": 403.3
+      "open": 395.24,
+      "high": 404.29,
+      "low": 394.87,
+      "close": 403.3,
+      "volume": 3272477
     },
     "AMGN": {
       "symbol": "AMGN",
       "date": "2025-12-11",
-      "close": 317.38
+      "open": 317.89,
+      "high": 320.19,
+      "low": 312.385,
+      "close": 317.38,
+      "volume": 2455125
     },
     "VZ": {
       "symbol": "VZ",
       "date": "2025-12-11",
-      "close": 40.22
+      "open": 40.0,
+      "high": 40.55,
+      "low": 39.97,
+      "close": 40.22,
+      "volume": 21894995
     },
     "WFC": {
       "symbol": "WFC",
       "date": "2025-12-11",
-      "close": 92.59
+      "open": 90.54,
+      "high": 93.4173,
+      "low": 90.22,
+      "close": 92.59,
+      "volume": 15505116
     },
     "PM": {
       "symbol": "PM",
       "date": "2025-12-11",
-      "close": 150.95
+      "open": 151.0,
+      "high": 152.6427,
+      "low": 150.415,
+      "close": 150.95,
+      "volume": 4130225
     },
     "INTU": {
       "symbol": "INTU",
       "date": "2025-12-11",
-      "close": 676.01
+      "open": 659.43,
+      "high": 678.33,
+      "low": 657.92,
+      "close": 676.01,
+      "volume": 2815749
     },
     "UPS": {
       "symbol": "UPS",
       "date": "2025-12-11",
-      "close": 100.48
+      "open": 100.11,
+      "high": 101.2,
+      "low": 99.0,
+      "close": 100.48,
+      "volume": 5264199
     },
     "HON": {
       "symbol": "HON",
       "date": "2025-12-11",
-      "close": 193.85
+      "open": 192.68,
+      "high": 194.434,
+      "low": 192.64,
+      "close": 193.85,
+      "volume": 3733699
     },
     "NEE": {
       "symbol": "NEE",
       "date": "2025-12-11",
-      "close": 81.21
+      "open": 81.245,
+      "high": 82.41,
+      "low": 81.065,
+      "close": 81.21,
+      "volume": 9494052
     },
     "MS": {
       "symbol": "MS",
       "date": "2025-12-11",
-      "close": 180.29
+      "open": 180.13,
+      "high": 181.98,
+      "low": 179.5,
+      "close": 180.29,
+      "volume": 7598711
     },
     "LOW": {
       "symbol": "LOW",
       "date": "2025-12-11",
-      "close": 248.08
+      "open": 248.1,
+      "high": 251.89,
+      "low": 247.5131,
+      "close": 248.08,
+      "volume": 2832185
     },
     "SPGI": {
       "symbol": "SPGI",
       "date": "2025-12-11",
-      "close": 497.56
+      "open": 493.22,
+      "high": 498.605,
+      "low": 492.1,
+      "close": 497.56,
+      "volume": 2666334
     },
     "IBM": {
       "symbol": "IBM",
       "date": "2025-12-11",
-      "close": 310.74
+      "open": 312.095,
+      "high": 313.44,
+      "low": 308.4,
+      "close": 310.74,
+      "volume": 2755749
     },
     "CAT": {
       "symbol": "CAT",
       "date": "2025-12-11",
-      "close": 625.61
+      "open": 611.95,
+      "high": 626.81,
+      "low": 604.2583,
+      "close": 625.61,
+      "volume": 2779489
     },
     "RTX": {
       "symbol": "RTX",
       "date": "2025-12-11",
-      "close": 177.42
+      "open": 174.5,
+      "high": 179.14,
+      "low": 174.3,
+      "close": 177.42,
+      "volume": 4865483
     },
     "GS": {
       "symbol": "GS",
       "date": "2025-12-11",
-      "close": 911.03
+      "open": 889.98,
+      "high": 919.098,
+      "low": 888.0,
+      "close": 911.03,
+      "volume": 2682952
     },
     "NOW": {
       "symbol": "NOW",
       "date": "2025-12-11",
-      "close": 867.49
+      "open": 852.42,
+      "high": 875.0,
+      "low": 851.12,
+      "close": 867.49,
+      "volume": 1407748
     },
     "ELV": {
       "symbol": "ELV",
       "date": "2025-12-11",
-      "close": 360.22
+      "open": 342.52,
+      "high": 362.26,
+      "low": 341.545,
+      "close": 360.22,
+      "volume": 2990681
     },
     "PLD": {
       "symbol": "PLD",
       "date": "2025-12-11",
-      "close": 130.56
+      "open": 130.5,
+      "high": 131.335,
+      "low": 129.97,
+      "close": 130.56,
+      "volume": 3702682
     },
     "ISRG": {
       "symbol": "ISRG",
       "date": "2025-12-11",
-      "close": 547.36
+      "open": 545.465,
+      "high": 553.39,
+      "low": 542.71,
+      "close": 547.36,
+      "volume": 1573821
     },
     "DE": {
       "symbol": "DE",
       "date": "2025-12-11",
-      "close": 475.94
+      "open": 471.01,
+      "high": 480.7439,
+      "low": 470.13,
+      "close": 475.94,
+      "volume": 1186663
     },
     "BLK": {
       "symbol": "BLK",
       "date": "2025-12-11",
-      "close": 1101.84
+      "open": 1084.86,
+      "high": 1104.33,
+      "low": 1081.0,
+      "close": 1101.84,
+      "volume": 774445
     },
     "BKNG": {
       "symbol": "BKNG",
       "date": "2025-12-11",
-      "close": 5279.68
+      "open": 5276.42,
+      "high": 5359.8,
+      "low": 5240.03,
+      "close": 5279.68,
+      "volume": 247035
     },
     "MDT": {
       "symbol": "MDT",
       "date": "2025-12-11",
-      "close": 99.75
+      "open": 101.28,
+      "high": 101.39,
+      "low": 99.62,
+      "close": 99.75,
+      "volume": 8339069
     },
     "LMT": {
       "symbol": "LMT",
       "date": "2025-12-11",
-      "close": 474.88
+      "open": 470.86,
+      "high": 479.7,
+      "low": 470.29,
+      "close": 474.88,
+      "volume": 1293962
     },
     "AXP": {
       "symbol": "AXP",
       "date": "2025-12-11",
-      "close": 384.89
+      "open": 376.0,
+      "high": 385.92,
+      "low": 375.6,
+      "close": 384.89,
+      "volume": 2976229
     },
     "ADP": {
       "symbol": "ADP",
       "date": "2025-12-11",
-      "close": 264.69
+      "open": 259.59,
+      "high": 264.99,
+      "low": 259.3518,
+      "close": 264.69,
+      "volume": 1634809
     },
     "SYK": {
       "symbol": "SYK",
       "date": "2025-12-11",
-      "close": 352.97
+      "open": 354.42,
+      "high": 361.0,
+      "low": 352.65,
+      "close": 352.97,
+      "volume": 1550612
     },
     "TJX": {
       "symbol": "TJX",
       "date": "2025-12-11",
-      "close": 155.58
+      "open": 155.82,
+      "high": 157.72,
+      "low": 155.21,
+      "close": 155.58,
+      "volume": 4444633
     },
     "AMAT": {
       "symbol": "AMAT",
       "date": "2025-12-11",
-      "close": 270.11
+      "open": 271.22,
+      "high": 271.985,
+      "low": 262.83,
+      "close": 270.11,
+      "volume": 7061221
     },
     "CB": {
       "symbol": "CB",
       "date": "2025-12-11",
-      "close": 305.98
+      "open": 298.57,
+      "high": 308.3055,
+      "low": 298.37,
+      "close": 305.98,
+      "volume": 2407721
     },
     "CI": {
       "symbol": "CI",
       "date": "2025-12-11",
-      "close": 272.26
+      "open": 264.91,
+      "high": 273.53,
+      "low": 263.79,
+      "close": 272.26,
+      "volume": 2084132
     },
     "MMC": {
       "symbol": "MMC",
       "date": "2025-12-11",
-      "close": 183.47
+      "open": 181.58,
+      "high": 185.15,
+      "low": 181.505,
+      "close": 183.47,
+      "volume": 3676980
     },
     "GILD": {
       "symbol": "GILD",
       "date": "2025-12-11",
-      "close": 123.21
+      "open": 122.25,
+      "high": 123.74,
+      "low": 121.0,
+      "close": 123.21,
+      "volume": 4892293
     },
     "ADI": {
       "symbol": "ADI",
       "date": "2025-12-11",
-      "close": 283.39
+      "open": 281.57,
+      "high": 283.81,
+      "low": 278.49,
+      "close": 283.39,
+      "volume": 2840020
     },
     "VRTX": {
       "symbol": "VRTX",
       "date": "2025-12-11",
-      "close": 445.93
+      "open": 445.65,
+      "high": 448.33,
+      "low": 442.0702,
+      "close": 445.93,
+      "volume": 1178366
     },
     "ZTS": {
       "symbol": "ZTS",
       "date": "2025-12-11",
-      "close": 117.66
+      "open": 118.81,
+      "high": 119.83,
+      "low": 117.14,
+      "close": 117.66,
+      "volume": 6150114
     },
     "REGN": {
       "symbol": "REGN",
       "date": "2025-12-11",
-      "close": 746.8
+      "open": 726.08,
+      "high": 753.61,
+      "low": 726.08,
+      "close": 746.8,
+      "volume": 1153882
     },
     "PGR": {
       "symbol": "PGR",
       "date": "2025-12-11",
-      "close": 230.44
+      "open": 223.55,
+      "high": 231.06,
+      "low": 223.275,
+      "close": 230.44,
+      "volume": 3452269
     },
     "MU": {
       "symbol": "MU",
       "date": "2025-12-11",
-      "close": 258.46
+      "open": 261.53,
+      "high": 262.85,
+      "low": 251.55,
+      "close": 258.46,
+      "volume": 18867027
     },
     "LRCX": {
       "symbol": "LRCX",
       "date": "2025-12-11",
-      "close": 168.71
+      "open": 165.66,
+      "high": 169.15,
+      "low": 160.32,
+      "close": 168.71,
+      "volume": 10000003
     },
     "SCHW": {
       "symbol": "SCHW",
       "date": "2025-12-11",
-      "close": 97.05
+      "open": 95.55,
+      "high": 97.09,
+      "low": 94.86,
+      "close": 97.05,
+      "volume": 10564871
     },
     "SO": {
       "symbol": "SO",
       "date": "2025-12-11",
-      "close": 84.73
+      "open": 84.81,
+      "high": 85.47,
+      "low": 84.26,
+      "close": 84.73,
+      "volume": 6262767
     },
     "BSX": {
       "symbol": "BSX",
       "date": "2025-12-11",
-      "close": 91.75
+      "open": 93.045,
+      "high": 93.89,
+      "low": 91.45,
+      "close": 91.75,
+      "volume": 11749972
     },
     "SLB": {
       "symbol": "SLB",
       "date": "2025-12-11",
-      "close": 40.34
+      "open": 39.85,
+      "high": 40.875,
+      "low": 39.78,
+      "close": 40.34,
+      "volume": 18982752
     },
     "ETN": {
       "symbol": "ETN",
       "date": "2025-12-11",
-      "close": 350.36
+      "open": 350.59,
+      "high": 351.14,
+      "low": 341.56,
+      "close": 350.36,
+      "volume": 2405623
     },
     "PANW": {
       "symbol": "PANW",
       "date": "2025-12-11",
-      "close": 190.36
+      "open": 191.38,
+      "high": 192.84,
+      "low": 188.5,
+      "close": 190.36,
+      "volume": 5776098
     },
     "MO": {
       "symbol": "MO",
       "date": "2025-12-11",
-      "close": 58.72
+      "open": 58.87,
+      "high": 59.38,
+      "low": 58.52,
+      "close": 58.72,
+      "volume": 7515555
     },
     "EQIX": {
       "symbol": "EQIX",
       "date": "2025-12-11",
-      "close": 754.13
+      "open": 737.41,
+      "high": 757.16,
+      "low": 730.815,
+      "close": 754.13,
+      "volume": 555733
     },
     "VOO": {
       "symbol": "VOO",
       "date": "2025-12-11",
-      "close": 633.71
+      "open": 630.0,
+      "high": 633.87,
+      "low": 627.27,
+      "close": 633.71,
+      "volume": 33921039
     },
     "QQQ": {
       "symbol": "QQQ",
       "date": "2025-12-11",
-      "close": 625.58
+      "open": 623.82,
+      "high": 625.78,
+      "low": 617.72,
+      "close": 625.58,
+      "volume": 58272844
     },
     "VTI": {
       "symbol": "VTI",
       "date": "2025-12-11",
-      "close": 339.87
+      "open": 337.77,
+      "high": 339.94,
+      "low": 336.4435,
+      "close": 339.87,
+      "volume": 3818952
     },
     "DIA": {
       "symbol": "DIA",
       "date": "2025-12-11",
-      "close": 487.87
+      "open": 482.2,
+      "high": 488.38,
+      "low": 481.96,
+      "close": 487.87,
+      "volume": 6972311
     },
     "IWM": {
       "symbol": "IWM",
       "date": "2025-12-11",
-      "close": 257.8
+      "open": 254.64,
+      "high": 258.01,
+      "low": 254.32,
+      "close": 257.8,
+      "volume": 41345164
     },
     "XLK": {
       "symbol": "XLK",
       "date": "2025-12-11",
-      "close": 147.97
+      "open": 147.06,
+      "high": 148.13,
+      "low": 145.11,
+      "close": 147.97,
+      "volume": 9769253
     },
     "XLF": {
       "symbol": "XLF",
       "date": "2025-12-11",
-      "close": 54.87
+      "open": 53.94,
+      "high": 54.98,
+      "low": 53.93,
+      "close": 54.87,
+      "volume": 51786521
     },
     "XLV": {
       "symbol": "XLV",
       "date": "2025-12-11",
-      "close": 153.58
+      "open": 152.78,
+      "high": 154.3,
+      "low": 152.26,
+      "close": 153.58,
+      "volume": 14703435
     },
     "GLD": {
       "symbol": "GLD",
       "date": "2025-12-11",
-      "close": 393.24
+      "open": 389.02,
+      "high": 394.09,
+      "low": 388.5,
+      "close": 393.24,
+      "volume": 11240629
     },
     "SLV": {
       "symbol": "SLV",
       "date": "2025-12-11",
-      "close": 57.62
+      "open": 56.775,
+      "high": 58.295,
+      "low": 56.465,
+      "close": 57.62,
+      "volume": 67910898
     }
   }
 }
