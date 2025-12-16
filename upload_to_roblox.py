@@ -12,23 +12,39 @@ ASSET_ID = "91072619691201"
 
 def upload_module_script(api_key, file_path):
     """Upload a Lua ModuleScript to Roblox using Open Cloud API"""
+    import mimetypes
+    from io import BytesIO
 
     # Read the Lua file
-    with open(file_path, 'r') as f:
+    with open(file_path, 'rb') as f:
         lua_content = f.read()
+
+    # Create multipart form data
+    boundary = '----WebKitFormBoundary7MA4YWxkTrZu0gW'
+
+    body = BytesIO()
+    body.write(f'--{boundary}\r\n'.encode('utf-8'))
+    body.write(b'Content-Disposition: form-data; name="request"\r\n')
+    body.write(b'Content-Type: application/json\r\n\r\n')
+    body.write(json.dumps({"assetType": "Model"}).encode('utf-8'))
+    body.write(b'\r\n')
+
+    body.write(f'--{boundary}\r\n'.encode('utf-8'))
+    body.write(b'Content-Disposition: form-data; name="fileContent"; filename="StockData.lua"\r\n')
+    body.write(b'Content-Type: application/octet-stream\r\n\r\n')
+    body.write(lua_content)
+    body.write(b'\r\n')
+    body.write(f'--{boundary}--\r\n'.encode('utf-8'))
 
     # Roblox Open Cloud API endpoint for updating assets
     url = f"https://apis.roblox.com/assets/v1/assets/{ASSET_ID}"
 
-    # Prepare the request
-    data = lua_content.encode('utf-8')
-
     headers = {
-        'x-api-key': api_key,
-        'Content-Type': 'application/octet-stream'
+        'x-api-key': api_key.strip(),
+        'Content-Type': f'multipart/form-data; boundary={boundary}'
     }
 
-    req = urllib.request.Request(url, data=data, headers=headers, method='PATCH')
+    req = urllib.request.Request(url, data=body.getvalue(), headers=headers, method='PATCH')
 
     try:
         with urllib.request.urlopen(req) as response:
