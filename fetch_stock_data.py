@@ -62,29 +62,29 @@ def fetch_stooq_data(symbol):
         return None
 
 def generate_lua_module(data):
-    """Generate Lua ModuleScript content from stock data"""
+    """Generate Lua ModuleScript content from stock data in game-compatible format"""
     lua_lines = [
         "-- Stock Data Module",
         "-- Auto-generated from Stooq API",
         f"-- Last updated: {data['last_updated']}",
         "",
-        "return {",
-        f"\tlast_updated = \"{data['last_updated']}\",",
-        "\tstocks = {"
+        "return {"
     ]
 
-    for symbol, stock in data['stocks'].items():
-        lua_lines.append(f"\t\t{symbol} = {{")
-        lua_lines.append(f"\t\t\tsymbol = \"{stock['symbol']}\",")
-        lua_lines.append(f"\t\t\tdate = \"{stock['date']}\",")
-        lua_lines.append(f"\t\t\topen = {stock['open']},")
-        lua_lines.append(f"\t\t\thigh = {stock['high']},")
-        lua_lines.append(f"\t\t\tlow = {stock['low']},")
-        lua_lines.append(f"\t\t\tclose = {stock['close']},")
-        lua_lines.append(f"\t\t\tvolume = {stock['volume']}")
-        lua_lines.append("\t\t},")
+    # Map symbol to full name
+    symbol_names = {
+        "RBLX": "Roblox",
+        "AAPL": "Apple",
+        "MSFT": "Microsoft"
+    }
 
-    lua_lines.append("\t}")
+    for symbol, stock in data['stocks'].items():
+        lua_lines.append("\t{")
+        lua_lines.append(f"\t\tName = \"{symbol_names.get(symbol, symbol)}\",")
+        lua_lines.append(f"\t\tSymbol = \"{stock['symbol']}\",")
+        lua_lines.append(f"\t\tCurrentPrice = {stock['close']}")
+        lua_lines.append("\t},")
+
     lua_lines.append("}")
 
     return "\n".join(lua_lines)

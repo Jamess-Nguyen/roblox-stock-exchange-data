@@ -1,36 +1,21 @@
 -- Stock Data Module
 -- Auto-generated from Stooq API
--- Last updated: 2025-12-15T18:29:40.780506
+-- Last updated: 2025-12-15T18:36:41.341711
 
 return {
-	last_updated = "2025-12-15T18:29:40.780506",
-	stocks = {
-		RBLX = {
-			symbol = "RBLX",
-			date = "2025-12-10",
-			open = 99.98,
-			high = 99.98,
-			low = 94.35,
-			close = 94.36,
-			volume = 8642009
-		},
-		AAPL = {
-			symbol = "AAPL",
-			date = "2025-12-10",
-			open = 277.75,
-			high = 279.75,
-			low = 276.44,
-			close = 278.78,
-			volume = 33038318
-		},
-		MSFT = {
-			symbol = "MSFT",
-			date = "2025-12-10",
-			open = 484.03,
-			high = 484.25,
-			low = 475.08,
-			close = 478.56,
-			volume = 35756229
-		},
-	}
+	{
+		Name = "Roblox",
+		Symbol = "RBLX",
+		CurrentPrice = 94.36
+	},
+	{
+		Name = "Apple",
+		Symbol = "AAPL",
+		CurrentPrice = 278.78
+	},
+	{
+		Name = "Microsoft",
+		Symbol = "MSFT",
+		CurrentPrice = 478.56
+	},
 }
