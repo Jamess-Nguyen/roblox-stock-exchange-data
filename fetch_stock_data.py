@@ -61,6 +61,34 @@ def fetch_stooq_data(symbol):
         print(f"Error fetching {symbol}: {e}")
         return None
 
+def generate_lua_module(data):
+    """Generate Lua ModuleScript content from stock data"""
+    lua_lines = [
+        "-- Stock Data Module",
+        "-- Auto-generated from Stooq API",
+        f"-- Last updated: {data['last_updated']}",
+        "",
+        "return {",
+        f"\tlast_updated = \"{data['last_updated']}\",",
+        "\tstocks = {"
+    ]
+
+    for symbol, stock in data['stocks'].items():
+        lua_lines.append(f"\t\t{symbol} = {{")
+        lua_lines.append(f"\t\t\tsymbol = \"{stock['symbol']}\",")
+        lua_lines.append(f"\t\t\tdate = \"{stock['date']}\",")
+        lua_lines.append(f"\t\t\topen = {stock['open']},")
+        lua_lines.append(f"\t\t\thigh = {stock['high']},")
+        lua_lines.append(f"\t\t\tlow = {stock['low']},")
+        lua_lines.append(f"\t\t\tclose = {stock['close']},")
+        lua_lines.append(f"\t\t\tvolume = {stock['volume']}")
+        lua_lines.append("\t\t},")
+
+    lua_lines.append("\t}")
+    lua_lines.append("}")
+
+    return "\n".join(lua_lines)
+
 def main():
     """Main function to fetch all stock data and write to JSON"""
     stock_data = {}
@@ -81,7 +109,13 @@ def main():
     with open('stock-prices.json', 'w') as f:
         json.dump(output, f, indent=2)
 
+    # Write to Lua ModuleScript
+    lua_content = generate_lua_module(output)
+    with open('StockData.lua', 'w') as f:
+        f.write(lua_content)
+
     print(f"\n[OK] Successfully updated stock-prices.json with {len(stock_data)} stocks")
+    print(f"[OK] Successfully generated StockData.lua ModuleScript")
     print(f"Updated at: {output['last_updated']}")
 
 if __name__ == "__main__":
