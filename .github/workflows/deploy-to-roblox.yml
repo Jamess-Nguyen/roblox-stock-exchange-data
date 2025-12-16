@@ -26,10 +26,12 @@ jobs:
       - name: Copy Aftman config to game repo
         run: copy data-repo/aftman.toml game-repo/aftman.toml
 
-      - name: Install Aftman and Rojo
+      - name: Install Aftman
         uses: ok-nick/setup-aftman@v0.4.1
-        with:
-          working-directory: game-repo
+
+      - name: Install Rojo via Aftman
+        working-directory: game-repo
+        run: aftman install
 
       - name: Build with Rojo
         working-directory: game-repo
